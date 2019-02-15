@@ -1,9 +1,9 @@
 require 'set'
 
-module Creek
+module Crek
   class Styles
     class Converter
-      include Creek::Styles::Constants
+      include Crek::Styles::Constants
       ##
       # The heart of typecasting. The ruby type is determined either explicitly
       # from the cell xml or implicitly from the cell style, and this

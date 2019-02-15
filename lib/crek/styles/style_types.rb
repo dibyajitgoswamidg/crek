@@ -1,9 +1,9 @@
 # https://github.com/hmcgowan/roo/blob/master/lib/roo/excelx.rb
 # https://github.com/woahdae/simple_xlsx_reader/blob/master/lib/simple_xlsx_reader.rb#L231
-module Creek
+module Crek
   class Styles
     class StyleTypes
-      include Creek::Styles::Constants
+      include Crek::Styles::Constants
       attr_accessor :styles_xml_doc
       def initialize(styles_xml_doc)
         @styles_xml_doc = styles_xml_doc

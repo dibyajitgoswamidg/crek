@@ -1,4 +1,4 @@
-module Creek
+module Crek
   class Styles
     module Constants
       # Map of non-custom numFmtId to casting symbol
