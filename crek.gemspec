@@ -36,13 +36,13 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  s.required_ruby_version = '>= 2.0.0'
+  spec.required_ruby_version = '>= 2.0.0'
 
-  s.add_development_dependency "bundler", "~> 1.3"
-  s.add_development_dependency "rake"
-  s.add_development_dependency 'rspec', '~> 2.13.0'
-  s.add_development_dependency 'pry'
+  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "rake", "< 11.0"
+  spec.add_development_dependency 'rspec', '~> 2.13.0'
+  spec.add_development_dependency 'pry'
 
-  s.add_dependency 'nokogiri', '~> 1.6.0'
-  s.add_dependency 'rubyzip', '>= 1.0.0'
+  spec.add_dependency 'nokogiri', '~> 1.6.0'
+  spec.add_dependency 'rubyzip', '>= 1.0.0'
 end
