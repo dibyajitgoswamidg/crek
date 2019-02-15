@@ -1,13 +1,13 @@
 require "crek/version"
-require 'creek/book'
-require 'creek/styles/constants'
-require 'creek/styles/style_types'
-require 'creek/styles/converter'
-require 'creek/utils' #added later
-require 'creek/styles'
-require 'creek/drawing' #added later
-require 'creek/sheet'
-require 'creek/shared_strings'
+require 'crek/book'
+require 'crek/styles/constants'
+require 'crek/styles/style_types'
+require 'crek/styles/converter'
+require 'crek/utils' #added later
+require 'crek/styles'
+require 'crek/drawing' #added later
+require 'crek/sheet'
+require 'crek/shared_strings'
 
 module Crek
   class Error < StandardError; end
