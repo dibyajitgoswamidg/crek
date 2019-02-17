@@ -68,9 +68,9 @@ Once this is complete, you should be able to run the test suite:
 
 == Bug Reporting
 
-Please use the {Issues}[https://github.com/pythonicrubyist/Crek/issues] page to report bugs or suggest new enhancements.
+Please use the {Issues}[https://github.com/dibyajitgoswamidg/crek/issues] page to report bugs or suggest new enhancements.
 
 
 == License
 
-Crek has been published under {MIT License}[https://github.com/pythonicrubyist/Crek/blob/master/LICENSE.txt]
+Crek has been published under {MIT License}[https://github.com/dibyajitgoswamidg/crek/blob/master/LICENSE.txt]
